@@ -35,14 +35,14 @@ if (chooseTheme == 1) {
 
 } else if (chooseTheme == 2) {
 
-    historyQuestionOne = prompt("Qual o ano do descobrimento do Brasil?\n 1. 1.500\n 2.1.600\n 3. 1.400");
+    historyQuestionOne = prompt("Qual o ano do descobrimento do Brasil?\n 1. 1.500\n 2. 1.600\n 3. 1.400");
     if (historyQuestionOne == "1") {
         document.getElementById('one').innerHTML = "Resposta 1";
     } else {
         document.getElementById('four').innerHTML = "Resposta 1";
     }
 
-    historyQuestionTwo = prompt("Quantas Guerras Mundiais o mundo já sofreu?\n 1. 3\n 2. 1\n 3.2");
+    historyQuestionTwo = prompt("Quantas Guerras Mundiais o mundo já sofreu?\n 1. 3\n 2. 1\n 3. 2");
     if (historyQuestionTwo == "3") {
         document.getElementById('two').innerHTML = "Resposta 2";
     } else {
