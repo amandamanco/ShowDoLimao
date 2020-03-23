@@ -1,0 +1,53 @@
+#salutation {
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0 215px;
+}
+
+.flex-container>div {
+    border: solid;
+    border-color: crimson ;
+    margin: 50px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.show {
+    font-family: 'Trade Winds', cursive;
+    font-size: 100px;
+    color: crimson;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(75, 117, 255, 0.884);
+
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: crimson;
+    text-align: center;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: crimson;
+    text-align: center;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: crimson;
+    text-align: center;
+}
